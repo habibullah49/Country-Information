@@ -12,7 +12,7 @@ const displayCountries =countries =>{
     const countryInfo=`
           <h3 class="country-name">${country.name}</h3>
           <p>${country.capital}</p>
-          <button onclick="displayCountryDetail('${country.name}')">Show Details</button>
+          <button class="button success" onclick="displayCountryDetail('${country.name}')">Show Details</button>
         `
     CountryDiv.innerHTML=countryInfo;
     CountriesDiv.appendChild(CountryDiv);
